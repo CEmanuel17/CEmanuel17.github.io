@@ -9,16 +9,16 @@ html, body {
 }
 
 body {
-    background: rgb(76,77,78);
-    background: linear-gradient(0deg, rgba(76,77,78,1) 0%, rgba(152,153,159,1) 100%);
+    background: rgb(67,64,68);
+    background: linear-gradient(90deg, rgba(67,64,68,1) 0%, rgba(170,161,161,1) 50%, rgba(67,64,68,1) 100%);
     color: white;
     font-family: "Raleway", sans-serif;
     height: auto;
 }
 
 .avatar {
-    width: 100px;
-    border-radius: 50px;
+    width: 150px;
+    border-radius: 50%;
     border: 3px solid white;
     box-shadow: 0 0 20px white;  
 }
@@ -36,6 +36,7 @@ h2 {
 .profile {
     text-align: center;
     margin-top: 20px;
+    color: black;
 }
 
 .social {
@@ -54,6 +55,7 @@ h2 {
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
     font-weight: 700;
+    color: black;
 }
 
 .experiencia {
@@ -96,7 +98,7 @@ h2 {
 }
 
 .footer {
-    background-color: rgb(54, 54, 54);
+    background-color: rgba(54, 54, 54, 0,8);
     color: #ffffff;
     text-align: center;
     border-radius: 5px 5px 0px 0px;
